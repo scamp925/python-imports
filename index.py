@@ -1,9 +1,3 @@
-# from appliances.kitchen.utility.dishwasher import Dishwasher
-# from appliances.laundry.dryer import Dryer
-# from appliances.laundry.washer import Washer
-# from appliances.kitchen.utility.refrigerator import Refrigerator
-# from appliances.kitchen.coffeemaker import CoffeeMaker
-# from appliances.kitchen.can_opener import CanOpener
 from appliances import (
   Dishwasher,
   Washer,
@@ -17,7 +11,10 @@ whirlpool_dishwasher = Dishwasher("black")
 whirlpool_dishwasher.wash_dishes()
 
 samsung_washer = Washer("red", "electric")
+samsung_washer.wash_clothes("super_scrub")
+
 samsung_dryer = Dryer("red", "gas")
+samsung_dryer.dry_clothes()
 
 lg_fridge = Refrigerator("stainless")
 lg_fridge.make_ice()
