@@ -5,9 +5,11 @@ from appliances import (
   Refrigerator,
   CoffeeMaker,
   CanOpener,
+  Stove
 )
 
 whirlpool_dishwasher = Dishwasher("black")
+print(whirlpool_dishwasher)
 whirlpool_dishwasher.wash_dishes()
 
 samsung_washer = Washer("red", "electric")
@@ -24,3 +26,6 @@ mr_coffee.make_coffee()
 
 kitchen_aid_can_opener = CanOpener("red")
 kitchen_aid_can_opener.open_can()
+
+whirlpool_stove = Stove("black")
+whirlpool_stove.make_coffee()
